@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #F0F3F4;
+}
+
+button {
+  font-size: 14pt;
+  margin: 4px;
+  padding: 2px;
+  width: 80px;
+
+  border-radius: 8px;
+}
+
+button.on:hover {
+  cursor: pointer;
+  background-color: green;
+}
+
+button.off:hover{
+  cursor: pointer;
+  background-color: red;
+}
